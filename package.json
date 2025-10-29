@@ -1,0 +1,20 @@
+{
+  "name": "practic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack --mode production",
+    "server": "live-server",
+    "test": "react-scripts test"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@sequelize/sqlite3": "^7.0.0-alpha.47",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "sequelize": "^6.37.7"
+  }
+}
